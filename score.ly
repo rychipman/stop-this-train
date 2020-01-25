@@ -24,11 +24,9 @@ gBass = { \key d \major }
 gBassLyrics = {}
 
 \include "sections/intro.ly"
-%\include "sections/verseOne.ly"
-%\include "sections/preChorus.ly"
-%\include "sections/chorusOne.ly"
+\include "sections/verseOne.ly"
+\include "sections/chorusOne.ly"
 %\include "sections/verseTwo.ly"
-%\include "sections/preChorus.ly"
 %\include "sections/chorusTwo.ly"
 %\include "sections/bridge.ly"
 %\include "sections/chorusThree.ly"
@@ -39,7 +37,7 @@ gBassLyrics = {}
         instrumentName = #"Russell"
         shortInstrumentName = #"NA"
     }{
-      \tempo 4 = 160
+      \tempo 4 = 180
       \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMaximumVolume = 0.6
       \clef "treble_8"
