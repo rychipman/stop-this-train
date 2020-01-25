@@ -1,155 +1,117 @@
 
-solo = \relative c' {
-  f4 c f16 f8 c16~ c8 c16 c |
-  % hey you look a-round can you
-  f8 f c c16 c f f8 c16~ c c c8 |
-  % hear that noise it's a re-bel sound we got
-  a4 c d c8 c~ |
-  % no-where else to go-
-  c8 bes r4 r r16 c16 c c |
-  % -o ... and when the
-  f8 f c c16 c f16 f8 c16~ c c c c |
-  % sun goes down and we fill the streets you're gon-na
-  f8 f16 f c c c c f16 f8 c16~ c c c8 |
-  % dance 'til the morning to the rebel's beat you can
-  a4 a8 a c8. a16~ a8 g |
-  % take ev-ry thing from me-
-  f4 r8. f16 f f8 g16~ g a f8 |
-  % -e ... 'cause this is all I need
+solo = \relative c {
+  fis2  r8 e~  e8 e~ |
+  % stop this train
+  e4  r4  r4  r8 d |
+  % I
+  fis4~  fis8 g~  g8 fis~  fis8 e~ |
+  % wan-na get off
+  e4~  e8 d~  d8 e8~  e4 |
+  % and go
+
+  d2~  d8 fis~  fis8 e~ |
+  % home again
+  e4  r4  r4  r8 d |
+  % I
+  fis4~  fis8 g~  g8 fis~  fis4 |
+  % can't take the
+  e2  fis2 |
+  % speed it's
+
+  d2~  d8 fis~  fis8 e~ |
+  % mo-vin' in
+  e4  r4  r4  d4 |
+  % I
+  fis2~  fis8 fis~  fis8 e~ |
+  % know I can't
+  e4  r4  r4  d4 |
+  % but
+
+  fis2  r8 e~  e8 e~ |
+  % honestly
+  e4  r4  r4  e4 |
+  % won't
+  e2~  e8 d~  d4 |
+  % some one
+  d4~  d8 fis,~  fis4  a4 |
+  % stop this train
 }
 
 soloLyrics = \lyricmode {
-  hey you look a -- round can you
-  hear that noise it's a re -- bel sound we got
-  no -- where else to go --
-  o and when the
-  sun goes down and we fill the streets you're gon -- na
-  dance 'til the mor -- nin' to the re -- bel's beat you can
-  take ev -- 'ry thing from me --
-  e 'cause this is all I need
+  stop this train
+  I
+  wan -- na get off
+  and go
+
+  home a -- gain
+  I
+  can't take the
+  speed it's
+
+  mo -- vin' in
+  I
+  know I can't
+  but
+
+  ho -- nest -- ly
+  won't
+  some -- one
+  stop this train
 }
 
-comp = \relative c' { % TODO is this octave correct?
-  r1 | r1 |
-  r1 | r1 |
-  r1 | r1 |
-  f4 e8 d d8. c16~ c8 d~ |
-  d4 r r2 |
+comp = \relative c' {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-compLyrics = \lyricmode {
-  take ev -- 'ry thing from me
-}
+compLyrics = \lyricmode {}
 
 rat = \relative c'' {
-  r16 a c r  a c r a  d c d r  r a c r |
-  a16 bes a bes  r a bes r  f a r bes  a r bes a |
-  r16 a c r  a c r a  d c d r  r a c r |
-  a16 bes a bes  r a bes r  f a r bes  a r bes a |
-  r16 a c r  a c r a  d c d r  r a c r |
-  a16 bes a bes  r a bes r  f a r bes  a r bes a |
-  r1 |
-  r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-ratLyrics = \lyricmode {
-  be det be det be de de det be det
-  be de de det be det de det be det be det
-  be det be det be de de det be det
-  be de de det be det de det be det be det
-  be det be det be de de det be det
-  be de de det be det de det be det be det
-}
+ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  f4  f  f16 f8 f16~  f c8 f16 |
-  d16 f d f~  f4  f  e |
-  f2  g8. a16~  a8 bes~ |
-  bes8 a  g f  g a  g f |
-  f4  f  f16 f8 f16~  f c8 f16 |
-  d16 f d f~  f4  f  e |
-  f2  f4  f |
-  g4  f16 f r8  g4  g |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-tenorLyrics = \lyricmode {
-  hey you ba dap bap bah da
-  ba da da da whoa -- oh
-  no -- where to go
-  oo -- oo -- oo -- oh -- oo -- oh -- ohh
-  sun down ba dap bap bah da
-  ba da da da whoa -- oh
-  take it from
-  me ba dat bah bah
-}
+tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  f4  f8 r8  c16 c c c  r c8 c16 |
-  d4  d16 c d r  d8 c  c4 |
-  f4  f8 r8  c16 c c c  r c8 c16 |
-  d4  d16 c d r  d8 c  c4 |
-  f4  f8 r8  c16 c c c  r c8 c16 |
-  d4  d16 c d r  d8 c  c4 |
-  a2  a8. c16~  c8 d~ |
-  d4  d16 c d r  d d r c  c r c8 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-leadLyrics = \lyricmode {
-  hey you ba da da da dap bah
-  bah ba da dap whoa -- oh ohh
-  bah dahp ba da da da dap bah
-  bah ba da dap whoa -- oh ohh
-
-  sun down ba da da da dap bah
-  bah ba da dap whoa -- oh ohh
-  take it from me
-  ba da dap ba dap ba dap bap
-}
+leadLyrics = \lyricmode {}
 
 bari = \relative c {
-  c'4 c8 r  a8. a16~  a8 c |
-  f,4 f8 r  g8. g16~  g8 a |
-  c4 c8 r  a8. a16~  a8 c |
-  f,4 f8 r  g8. g16~  g8 a |
-  c4 c8 r  a8. a16~  a8 c |
-  f,4 f8 r  g8. g16~  g8 a |
-  f8. a16~  a8 f8  f8. a16~  a8 bes~ |
-  bes2  a16 a a a  r g8. |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-bariLyrics = \lyricmode {
-  hey you oh doh weh
-  ah dahp oh doh weh
-  bah dahp oh doh weh
-  ah dahp oh doh weh
-  sun down oh doh weh
-  ah dahp oh doh weh
-  take ev -- 'ry thing from me
-  ba da da dahp bah
-}
+bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  f4  f8 r  r16 f, f c'~  c a a a |
-  bes4  bes8 r  r16 bes bes c~  c c8 c16 |
-  f,4  f8 r  r16 f c' f,  c'8 c16 a |
-  bes4  bes8 r16 bes  bes8 r16 bes  bes c c,8 |
-
-  f4  f8 r  r16 f f c'~  c a a a |
-  bes4  bes8 r  r16 bes bes c~  c c8 c16 |
-  d8 d  a d  c c g c |
-  bes8. bes16~  bes bes bes bes  bes bes8 c16~  c c c c |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-bassLyrics = \lyricmode {
-  hey you beh de dm be de de
-  dm dm be de dm bet de
-  dm dm beh deh de dm de de
-  dm dm be dm be de -- dn dm
-  bah dahp beh de dm be de de
-  dm dm be de dm bet de
-  dm dm dm dm dm dm dm dm
-  dm dm be de deh deh -- dm dm be de deh
-}
+bassLyrics = \lyricmode {}
 
 
 % "Export" the music to new variables
