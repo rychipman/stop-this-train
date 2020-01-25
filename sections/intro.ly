@@ -63,6 +63,8 @@ bari = \relative c {
 bariLyrics = \lyricmode {}
 
 bass = {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
 bassLyrics = \lyricmode {}
