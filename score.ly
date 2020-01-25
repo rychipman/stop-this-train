@@ -8,44 +8,44 @@
   copyright = "© 2020 MIT Logarhythms"
 }
 
-gSolo = { \key f \major }
+gSolo = { \key d \major }
 gSoloLyrics = {}
-gComp = { \key f \major }
+gComp = { \key d \major }
 gCompLyrics = {}
-gRat = { \key f \major }
+gRat = { \key d \major }
 gRatLyrics = {}
-gTenor = { \key f \major }
+gTenor = { \key d \major }
 gTenorLyrics = {}
-gLead = { \key f \major }
+gLead = { \key d \major }
 gLeadLyrics = {}
-gBari = { \key f \major }
+gBari = { \key d \major }
 gBariLyrics = {}
-gBass = { \key f \major }
+gBass = { \key d \major }
 gBassLyrics = {}
 
 \include "sections/intro.ly"
-\include "sections/verseOne.ly"
-\include "sections/preChorus.ly"
-\include "sections/chorusOne.ly"
-\include "sections/verseTwo.ly"
-\include "sections/preChorus.ly"
-\include "sections/chorusTwo.ly"
-\include "sections/bridge.ly"
-\include "sections/chorusThree.ly"
+%\include "sections/verseOne.ly"
+%\include "sections/preChorus.ly"
+%\include "sections/chorusOne.ly"
+%\include "sections/verseTwo.ly"
+%\include "sections/preChorus.ly"
+%\include "sections/chorusTwo.ly"
+%\include "sections/bridge.ly"
+%\include "sections/chorusThree.ly"
 
 \score {
   \new StaffGroup = partsStaff <<
     \new Staff \with {
-        instrumentName = #"Neil"
+        instrumentName = #"Russell"
         shortInstrumentName = #"NA"
     }{
-      \tempo 4 = 89
+      \tempo 4 = 160
       \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMaximumVolume = 0.6
       \clef "treble_8"
-      \new Voice = "Neil" { \gSolo }
+      \new Voice = "Russell" { \gSolo }
     }
-    \new Lyrics \lyricsto "Neil" { \gSoloLyrics }
+    \new Lyrics \lyricsto "Russell" { \gSoloLyrics }
     \new Staff \with {
         instrumentName = #"Comp"
         shortInstrumentName = #"C"
@@ -70,7 +70,7 @@ gBassLyrics = {}
         instrumentName = #"Tenor"
         shortInstrumentName = #"T"
     }{
-      \set Staff.midiInstrument = #"electric guitar (clean)"
+      \set Staff.midiInstrument = #"acoustic guitar (nylon)"
       \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
       \new Voice = "Tenor" { \gTenor }
@@ -80,7 +80,7 @@ gBassLyrics = {}
         instrumentName = #"Lead"
         shortInstrumentName = #"L"
     }{
-      \set Staff.midiInstrument = #"electric guitar (clean)"
+      \set Staff.midiInstrument = #"acoustic guitar (nylon)"
       \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
       \new Voice = "Lead" { \gLead }
@@ -90,7 +90,7 @@ gBassLyrics = {}
         instrumentName = #"Bari"
         shortInstrumentName = #"B"
     }{
-      \set Staff.midiInstrument = #"electric guitar (clean)"
+      \set Staff.midiInstrument = #"acoustic guitar (nylon)"
       \set Staff.midiMaximumVolume = 0.9
       \clef "bass"
       \new Voice = "Bari" { \gBari }

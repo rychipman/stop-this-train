@@ -1,70 +1,68 @@
 
 solo = {
   r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
 soloLyrics = \lyricmode {}
 
 comp = {
   r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
 compLyrics = \lyricmode {}
 
 rat = \relative c'' {
-  r4 c8 a16 c~ c a g8~ g a |
-  r4 c8 a16 c~ c a g8~ g a |
-  r4 c8 a16 c~ c a g8~ g a |
-  r4 c8 a16 c~ c a g8~ g f |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-ratLyrics = \lyricmode {
-  ben de den de den den
-  ben de den de den den
-  ben de den de den den
-  ben de den de den den
-}
+ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  r1 |
-  r1 |
-  d2. d4 |
-  f1 |
+  d4~ d8 e8~ e2 |
+  b'4~ b8 b8~ b2 |
+  a4~ a8 a8~ a2 |
+  e4~ e8 e8~ e2 |
+
+  cis8 d8~ d8 e8~ e2 |
+  b'4~ b8 b8~ b2 |
+  a4~ a8 a8~ a2 |
+  e4~ e8 e8~ e2 |
 }
 
-tenorLyrics = \lyricmode {
-  doh do -- ohh
+tenorLyrics = \lyricmode {}
+
+lead = \relative c' {
+  r4 a~ a8 a8~ a4( |
+  cis4) cis~ cis8 cis8~ cis4 |
+  r4 cis~ cis8 cis8~ cis4 \glissando |
+  a4 a~ a8 a8~ a4 |
+
+  r4 a~ a8 a8~ a4 \glissando |
+  cis4 cis~ cis8 cis8~ cis4 |
+  r4 cis~ cis8 cis8~ cis4 \glissando |
+  a4 a~ a8 a8~ a4 |
 }
 
-lead = \relative c {
-  f16 f8 f16 f8 f16 f~ f f f8 f16 g8. |
-  bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8 bes16 c8. |
-  d16 d8 d16 d8 d16 d~ d d d8 d16 c8. |
-  bes16 bes8 bes16 bes8 bes16 bes~ bes bes bes8 bes16 bes bes bes |
-}
-
-leadLyrics = \lyricmode {
-  be den de den be den de den be den
-  be den de den be den de den be den
-  be den de den be den de den be den
-  be den de den be den de den be de de de
-}
+leadLyrics = \lyricmode {}
 
 bari = \relative c {
-  r1 |
-  f1 |
-  f4 f4 f4 f4 |
-  f4 f4 f4 f4 |
+  d2 d2 |
+  d2 d2 |
+  d2 d2 |
+  d2 d2 |
+
+  d2 d2 |
+  d2 d2 |
+  d2 d2 |
+  d2 d2 |
 }
 
-bariLyrics = \lyricmode {
-  doh
-  dn dn dn dn
-  dn dn dn dn
-}
+bariLyrics = \lyricmode {}
 
 bass = {
-  r1 | r1 | r1 | r1 |
 }
 
 bassLyrics = \lyricmode {}
