@@ -11,8 +11,6 @@ solo = \relative c' {
 
   fis4 r4 r2 |
   r1 |
-  r1 |
-  r1 |
 
   r4  b4  b4  b8 b~ |
   % one genera-
@@ -24,8 +22,6 @@ solo = \relative c' {
   % out on my own
 
   fis4 r4 r2 |
-  r1 |
-  r1 |
   r1 |
 }
 
@@ -45,13 +41,11 @@ comp = \relative c {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
 }
 
 compLyrics = \lyricmode {}
 
 rat = \relative c'' {
-  r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
@@ -63,13 +57,11 @@ tenor = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
@@ -81,13 +73,11 @@ bari = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
 }
 
 bariLyrics = \lyricmode {}
 
 bass = \relative c, {
-  r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
