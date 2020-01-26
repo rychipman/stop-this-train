@@ -35,7 +35,7 @@ gBassLyrics = {}
   \new StaffGroup = partsStaff <<
     \new Staff \with {
         instrumentName = #"Russell"
-        shortInstrumentName = #"NA"
+        shortInstrumentName = #"RP"
     }{
       \tempo 4 = 180
       \set Staff.midiInstrument = #"acoustic grand"
