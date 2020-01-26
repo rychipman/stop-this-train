@@ -1,150 +1,99 @@
 
 solo = \relative c' {
-  r1 | r1 |
-  r16 c c c  c a a g  g a8 a16~  a r8. |
-  r16 bes bes bes  bes8 bes16 bes  bes a8 g16~  g f8. |
-  r16 f g a  a a g f  g f8 f16~  f8 d16 c |
-  f8 d16 c  f8 d16 c  bes' a8 g16~  g f8. |
-  r16 c' c c  c a a g  g a8 a16~  a8 f16 f |
-  bes8 bes16 bes  bes8 bes16 bes  bes a8 g16~  g f f f |
-  g a8 a16~  a8 g16 f  g f8 f16~  f c c c |
-  bes' a8 f16~  f8 c16 c  bes' a8 g16~  g8 f16 g~ |
+  r4  b8 b~  b8 b~  b8 d~ |
+  % don't know how else
+  d8 d~  d8 a~  a8 g~ g4 |
+  % to say it
+  r4  r8 b  b8 b~  b8 d~ |
+  % don't wanna see
+  d8 a~  a8 g  g4  fis4~ |
+  % my parents go
+
+  fis4 r4 r2 |
+  r1 |
+  r1 |
+  r1 |
+
+  r4  b4  b4  b8 b~ |
+  % one genera-
+  b8 a~  a8 a~  a8 g  g4 |
+  % tion's length away
+  r4  r8 g  a8 b~  b8 b~ |
+  % from fighting life
+  b8 a~  a8 b~  b8 fis~  fis8 fis~ |
+  % out on my own
+
+  fis4 r4 r2 |
+  r1 |
+  r1 |
+  r1 |
 }
 
 soloLyrics = \lyricmode {
-  you know that life is like a tick -- ing clock
-  no -- bo -- dy knows when it's gon -- na stop yeah
-  be -- fore I'm gone I need to touch some -- one with a
-  word with a kiss with a de -- cent song yeah
+  don't know how else
+  to say it
+  don't wan -- na see
+  my pa -- rents go
 
-  and it gets lone -- ly when you live out loud when the
-  truth that you seek is -- n't in this crowd you bet -- ter
-  find your voice bet -- ter make it loud we got -- ta
-  burn that fire or we'll just burn out a li --
+  one ge -- ne -- ra --
+  tion's length a -- way
+  from figh -- ting life
+  out on my own
 }
 
-comp = {
-  r1 | r1 |
+comp = \relative c {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
 }
 
-compLyrics = \lyricmode {
+compLyrics = \lyricmode {}
 
-}
-
-rat = {
-  r1 | r1 |
+rat = \relative c'' {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
 }
 
-ratLyrics = \lyricmode {
-
-}
+ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  r1 |
-  c1 |
-  f1 |
-  f1 |
-  f1 |
-  f2. g4 |
-  f2 c4 f |
-  f2 d4 f |
-  f2 f4 f |
-  f2. g4 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-tenorLyrics = \lyricmode {
-  doh
-  doh
-  ohh
-  ohh
-  ohh ohh
-  doh doh doh
-  doh doh doh
-  doh doh doh
-  doh doh
-}
+tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  a4  a2  a4 |
-  bes4  bes2  bes4 |
-  a4  a2  a4 |
-  bes4  bes2  bes4 |
-  a4  c2  a4 |
-  bes4  c2  bes4 |
-
-  a8 a16 a  r8 a~  a4  a16 a r8 |
-  bes8 bes16 bes  r8 bes~  bes4  bes16 bes r8 |
-  a8 c16 a  r8 a~  a4  f16 a r8 |
-  bes8 c16 bes  r8 d~  d4  d16 e r8 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-leadLyrics = \lyricmode {
-  doh doh doh
-  doh doh doh
-  doh doh doh
-  doh doh doh
-  doh doh doh
-  doh doh doh
+leadLyrics = \lyricmode {}
 
-  doh de -- det doh de -- det
-  doh de -- det doh de -- det
-  doh de -- det doh de -- det
-  doh de -- det doh de -- det
+bari = \relative c' {
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-bari = \relative c {
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-  f16 f f8~  f16 f f8  g16 f8 g16  f8 g16 f |
-}
-
-bariLyrics = \lyricmode {
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-  zhe -- de -- den de -- den de -- dn de -- dn de -- dn
-}
+bariLyrics = \lyricmode {}
 
 bass = \relative c, {
-  r1 | r1 |
-  f2.  g4 |
-  bes2.  c4 |
-  d2. c4 |
-  bes2. c4|
-  f,4 f f g |
-  bes4 bes bes c |
-  d4 d d c |
-  bes4 bes bes c |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-bassLyrics = \lyricmode {
-  dm dm
-  dm dm
-  dm dm
-  dm dm
-  dm dm dm dm
-  dm dm dm dm
-  dm dm dm dm
-  dm dm dm dm
-}
+bassLyrics = \lyricmode {}
 
 
 % "Export" the music to new variables
