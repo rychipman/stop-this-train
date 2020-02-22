@@ -23,6 +23,8 @@ solo = \relative c' {
 
   fis4 r4 r2 |
   r1 |
+
+  \bar "||" \mark \default
 }
 
 soloLyrics = \lyricmode {

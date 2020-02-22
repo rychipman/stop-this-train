@@ -2,6 +2,7 @@
 solo = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  \bar "||" \mark \default
 }
 
 soloLyrics = \lyricmode {}

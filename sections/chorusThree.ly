@@ -11,6 +11,8 @@ solo = \relative c' {
   d4  r8 d~  d c~  c16 f f8 |
   a,4 a8 a c8. a16~ a8 g |
   f4 r8. f16 f f8 g16~ g a f8 |
+
+  \bar "||" \mark \default
 }
 
 soloLyrics = \lyricmode {
