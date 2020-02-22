@@ -28,7 +28,6 @@ gBariLyrics = {}
 gBass = { \key d \major }
 gBassLyrics = {}
 
-\include "sections/intro.ly"
 \include "sections/verseOne.ly"
 \include "sections/chorusOneTwo.ly"
 \include "sections/verseTwo.ly"
@@ -48,7 +47,7 @@ gBassLyrics = {}
       \set Score.markFormatter = #format-mark-box-alphabet
 
       \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.6
+      \set Staff.midiMaximumVolume = 0.9
       \clef "treble_8"
       \new Voice = "Russell" { \gSolo }
     }
@@ -108,7 +107,7 @@ gBassLyrics = {}
         shortInstrumentName = #"B"
     }{
       \set Staff.midiInstrument = #"acoustic bass"
-      \set Staff.midiMaximumVolume = 0.9
+      \set Staff.midiMaximumVolume = 1.5
       \clef "bass"
       \new Voice = "Bass" { \gBass }
     }
