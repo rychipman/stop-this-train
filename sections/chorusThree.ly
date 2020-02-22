@@ -4,58 +4,58 @@
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:171
 
-solo = \relative c {
-  r1 |
+solo = \relative c' {
+  r4  b8 b  b4  b8 d~ |
   % had a talk with my
-  r1 |
+  d8 d~  d8 e~  e4 r4 |
   % old man
-  r1 |
+  r4  bes4  bes4  bes8 d~ |
   % said help me un-
-  r1 |
+  d8 d~  d8 e~  e4 r4 |
   % der stand
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:177.2
 
-  d2~  d8 fis~  fis8 e~ |
+  r4  d8 d~  d8 d~  d4 |
   % he said turn
-  e4  r4  r4  r8 d |
+  e4  fis8 fis~  fis4  r4 |
   % sixty eight
-  fis4~  fis8 g~  g8 fis~  fis4 |
+  r4  fis8 g~  g4  fis8 e~ |
   % you'll renego-
-  e2  fis2 |
+  e4  b8 b~  b8 r  fis'4~ |
   % tiate don't
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:182
 
-  fis2  r8 e~  e8 e~ |
+  fis4  fis4  r8 e~  e8 e~ |
   % stop this train
-  e4  r4  r4  r8 d |
+  e4  r4  r2 |
   %
-  fis4~  fis8 g~  g8 fis~  fis8 e~ |
+  fis4~  fis8 g~  g8 fis~  fis8 a~ |
   % don't for a mi-
-  e4~  e8 d~  d8 e8~  e4 |
+  a8 fis~  fis8 fis~  fis4  r8 b,~ |
   % nute change the 
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:187
 
-  d2~  d8 fis~  fis8 e~ |
+  b8 d~  d4~  d8 fis~  fis8 e~ |
   % place you're in
   e4  r4  r4  r8 d |
   % and
   fis4~  fis8 g~  g8 fis~  fis4 |
   % don't think I
-  e2  fis2 |
+  a4  g8 fis(  e4)  d4 |
   % couldn't ever
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:193
 
   d2~  d8 fis~  fis8 e~ |
   % understand
-  e4  r4  r4  d4 |
+  e4  r4  r4  e4 |
   % I
   fis2~  fis8 fis~  fis8 e~ |
   % tried my hand
-  e4  r4  r4  d4 |
+  e4  r4  r4  fis4 |
   % john
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:198.7
