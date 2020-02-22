@@ -1,3 +1,6 @@
+% score:///home/ryan/git/personal/stop-this-train/score.ly
+% play:///home/ryan/git/personal/stop-this-train/media/russell.m4a:97.75
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:150
 
 solo = \relative c' {
   r4  b8 b~  b8 b~  b4 |

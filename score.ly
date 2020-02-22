@@ -1,3 +1,7 @@
+% score:///home/ryan/git/personal/stop-this-train/score.ly
+% play:///home/ryan/git/personal/stop-this-train/media/russell.m4a:0
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:150
+
 \version "2.18.2"
 
 #(set-global-staff-size 14)
