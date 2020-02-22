@@ -1,6 +1,6 @@
 % score:///home/ryan/git/personal/stop-this-train/score.ly
 % play:///home/ryan/git/personal/stop-this-train/media/russell.m4a:0
-% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:150
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:235.5
 
 solo = \relative c {
   fis2  r8 e~  e8 e~ |

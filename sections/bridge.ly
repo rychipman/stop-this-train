@@ -35,7 +35,7 @@ solo = \relative c' {
   e4~  e8 fis~  fis8 g~  g4  |
   % cry when you're
 
-% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:231
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:230.5
 
   fis4~  fis8 e~  e8 c~  c4  |
   % driving a-
@@ -117,10 +117,10 @@ bari = \relative c {
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  g1 | a1 | b1 | cis1 |
+  g1 | a1 | b1 | cis1 |
+  g1 | a1 | b1 | cis1 |
+  d1 | a1 | e1 | e1 |
 }
 
 bassLyrics = \lyricmode {}
