@@ -1,134 +1,129 @@
+% score:///home/ryan/git/personal/stop-this-train/score.ly
+% play:///home/ryan/git/personal/stop-this-train/media/russell.m4a:161
 
-solo = \relative c {
-  r8. f16  g a8 a16~  a8 g16 g~  g4 |
-  r8. g16  a bes8 bes16~  bes a8 a16~  a g f8 |
-  r4  g16 a8 a16~  a8 g16 g~  g8 f |
-  bes8 bes16 bes~  bes8 a16 a~  a8 g16 f~  f g8. |
-  r8. f16  g a8 a16~  a g8 g16~  g f8 f16~ |
-  f8 r  bes bes16 bes~  bes a8 a16~  a g f8 |
-  r8. f16  c' a8 a16~  a8 g16 f~  f8 f |
-  bes8 a  a4  f'8 f~  f f~ |
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:214
+
+solo = \relative c' {
+  b2~  b8 a  b8 cis~ |
+  % once in a while
+  cis2  r8 b  cis4 |
+  % when it's
+  d2  r4  cis8 d |
+  % good it'll
+  e4~  e8 d~  d8 e~  e4 |
+  % feel like it
+
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:220
+
+  b2~  b8 a  b8 cis~ |
+  % should and they're
+  cis2  \tuplet 3/2 { r4 b cis } |
+  % all still a-
+  d2  r4  cis8 d |
+  % round and you're
+  e4~  e8 d~  d8 b~  b4 |
+  % still safe and
+
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:225.7
+
+  e2  r8 d  e8 e~ |
+  % sound and you don't
+  e2  \tuplet 3/2 { r4 d e } |
+  % miss a
+  e2  r4  d8 e |
+  % thing 'til you
+  e4~  e8 fis~  fis8 g~  g4  |
+  % cry when you're
+
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:231
+
+  fis4~  fis8 e~  e8 c~  c4  |
+  % driving a-
+  c4~  c8 b~  b8 a(  g4)  |
+  % way in the
+  g1 |
+  % dark
+  r2  a8 g~  g4 |
+  % singing
 
   \bar "||" \mark \default
 }
 
 soloLyrics = \lyricmode {
-  'cause we are free to -- night
-  and ev -- 'ry -- thing's all ri -- i -- ight
-  put your arms a -- round me
-  ba -- by show me how to move you
-  'cause there's no wor -- ries there's no cares
-  feel the sound that's ev -- 'ry -- where
-  we'll take what's ours for once and
-  ba -- y -- bay run like hell
+  once in a while
+  when it's
+  good it -- ll
+  feel like it
+
+  should and they're
+  all still a --
+  round and you're
+  still safe and
+
+  sound and you don't
+  miss a
+  thing 'til you
+  cry when you're
+
+  dri -- ving a --
+  way in the
+  dark
+  sing -- ing
 }
 
 comp = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-compLyrics = \lyricmode {
-
-}
+compLyrics = \lyricmode {}
 
 rat = {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-ratLyrics = \lyricmode {
-
-}
+ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  f1~ |
-  f1~ |
-  f1~ |
-  f1 |
-  %f8 g~  g4  a8 g~  g f~ |
-  f2.  f4 |
-  f2.  f4 |
-  f2.  f4 |
-  f4  f16 f f r  f8 r  f4 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-tenorLyrics = \lyricmode {
-  oo
-
-
-
-  oo weh
-  ohh weh
-  ahh weh
-  ahh je -- de -- det bap bah
-}
+tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  c1 |
-  c8 d  c bes~  bes c~  c4 |
-  c8 d  c d~  d c~  c d~ |
-  d8 c  d4~  d2 |
-  c4~  c8 d~  d c~  c4 |
-  d4~  d8 bes~  bes d~  d4 |
-  d4~  d8 c~  c d~  d4 |
-  c2  c8. c16~  c4 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-leadLyrics = \lyricmode {
-  oo
-  whoa -- oh -- oh -- oh -- ohh
-  whoa -- oh -- oh -- oh -- oh -- oh --
-  oh -- ohh
-  whoa -- oh -- ohh
-  whoa -- oh -- ohh
-  whoa -- ah -- ahh
-  ahh bahp bah
-}
+leadLyrics = \lyricmode {}
 
 bari = \relative c {
-  f4  a8 g~  g f~  f f~ |
-  f8 r  a8 g~  g f~  f a~ |
-  a8 r  a8 g~  g f~  f bes~ |
-  bes4~  bes8 a  bes a~  a f |
-  r8 f16 f  f8 f16 f  r8 f~  f a |
-  g8 g16 g  g8 g16 g  r8 g~  g a |
-  bes8 bes16 bes  bes8 bes16 bes  r8 bes~  bes bes |
-  c2  c |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-bariLyrics = \lyricmode {
-  ohh whoa -- oh -- oh -- ohh
-  whoa -- oh -- oh -- ohh
-  whoa -- oh -- oh -- ohh
-  oh -- oh -- oh -- ohh
-  doh -- d' -- doh -- doh -- doht oh -- ohh
-  oh doh -- d' -- doh -- doh -- doht oh -- ohh
-  oh doh -- d' -- doh -- doh -- doht oh -- ohh
-  ahh ahh
-}
+bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  f1~ |
-  f1~ |
-  f1~ |
-  f1 |
-  f,1 |
-  g1 |
-  bes1 |
-  c2  c16 c8 c16  c8 c |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
+  r1 | r1 | r1 | r1 |
 }
 
-bassLyrics = \lyricmode {
-  oo
-
-
-
-  dm
-  dm
-  dm
-  dm ba -- dap ba -- dap bah
-}
+bassLyrics = \lyricmode {}
 
 
 % "Export" the music to new variables
