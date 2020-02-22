@@ -66,6 +66,18 @@ soloLyrics = \lyricmode {
   stop this train
 }
 
+% play:///home/ryan/git/personal/stop-this-train/media/tori.m4a:93
+toricomp = \relative c' {
+  d2  r8 b~  b8 b~ |
+  % stop this train
+  b4  r4  r2 |
+  %
+  d4~  d8 e~  e8 d~  d8 b~ |
+  % wan-na get off
+  b4~  b8 a~  a8 b8~  b4 |
+  % and go
+}
+
 comp = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
