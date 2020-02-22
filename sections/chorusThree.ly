@@ -25,6 +25,8 @@ solo = \relative c' {
   e4  b8 b~  b8 r  fis'4~ |
   % tiate don't
 
+  \mark \default
+
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:182
 
   fis4  fis4  r8 e~  e8 e~ |
