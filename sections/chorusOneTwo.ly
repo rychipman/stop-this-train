@@ -39,6 +39,8 @@ solo = \relative c {
   d4~  d8 fis,~  fis4  a4 |
   % stop this train
 
+  r1 | r1 |
+
   \bar "||" \mark \default
 }
 
@@ -69,6 +71,7 @@ comp = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 compLyrics = \lyricmode {}
@@ -78,6 +81,7 @@ rat = \relative c'' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 ratLyrics = \lyricmode {}
@@ -87,6 +91,7 @@ tenor = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 tenorLyrics = \lyricmode {}
@@ -96,6 +101,7 @@ lead = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 leadLyrics = \lyricmode {}
@@ -105,6 +111,7 @@ bari = \relative c {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 bariLyrics = \lyricmode {}
@@ -114,6 +121,7 @@ bass = \relative c {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 bassLyrics = \lyricmode {}
