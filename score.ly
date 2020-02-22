@@ -25,11 +25,13 @@ gBassLyrics = {}
 
 \include "sections/intro.ly"
 \include "sections/verseOne.ly"
-\include "sections/chorusOne.ly"
-%\include "sections/verseTwo.ly"
-%\include "sections/chorusTwo.ly"
-%\include "sections/bridge.ly"
-%\include "sections/chorusThree.ly"
+\include "sections/chorusOneTwo.ly"
+\include "sections/verseTwo.ly"
+\include "sections/chorusOneTwo.ly"
+\include "sections/verseThree.ly"
+\include "sections/chorusThree.ly"
+\include "sections/bridge.ly"
+\include "sections/finalChorus.ly"
 
 \score {
   \new StaffGroup = partsStaff <<
