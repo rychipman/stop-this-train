@@ -83,19 +83,18 @@ rat = \relative c'' {
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  fis1 | e1 | fis2 e2 | fis2 e2 |
-
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  fis1 | fis1 | fis1 | fis1 |
+  d1 | d1 | d1 | d1 |
+  fis1 | fis1 | fis1 | fis1 |
   r1 | r1 | r1 | r1 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  fis1 | fis1 | fis1 | fis1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  b1 | b1 | bes1 | bes1 |
+  a1 | a1 | a1 | a1 |
+  gis1 | gis1 | gis1 | gis1 |
   r1 | r1 | r1 | r1 |
 }
 
@@ -103,8 +102,8 @@ leadLyrics = \lyricmode {}
 
 bari = \relative c {
   d1 | d1 | d1 | d1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  d1 | d1 | d1 | d1 |
+  e1 | e1 | e1 | e1 |
   r1 | r1 | r1 | r1 |
 }
 
