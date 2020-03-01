@@ -24,7 +24,7 @@ solo = \relative c' {
   r4  r8 b  b8 b~  b8 d~ |
   % I just can't
   d8 a~  a8 a~  a8 g  fis4~ |
-  % sleep on this tonigt
+  % sleep on this tonight
 
   fis4 r4 r2 |
   r1 |
