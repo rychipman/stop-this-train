@@ -78,6 +78,8 @@ comp = {
   r1 | r1 | r1 | r1 |
 }
 
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:214
+
 compLyrics = \lyricmode {}
 
 rat = {
@@ -90,8 +92,8 @@ rat = {
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  d1 | cis1 | d1 | e1 |
+  d1 | cis1 | d1 | e1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
 }
@@ -99,17 +101,17 @@ tenor = \relative c' {
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  b1 | a1 | g1 | a1 |
+  b1 | a1 | g1 | a1 |
+  d1 | b1 | e1 | b1 |
   r1 | r1 | r1 | r1 |
 }
 
 leadLyrics = \lyricmode {}
 
-bari = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+bari = \relative c' {
+  g1 | e1 | d1 | e1 |
+  g1 | e1 | d1 | e1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
 }
