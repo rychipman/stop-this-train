@@ -1,5 +1,7 @@
 
 solo = \relative c' {
+  \tempo 4 = 180
+
   r4  b8 b~  b8 b~  b8 d~ |
   % don't know how else
   d8 d~  d8 a~  a8 g~ g4 |

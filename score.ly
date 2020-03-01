@@ -43,7 +43,6 @@ gBassLyrics = {}
         instrumentName = #"Russell"
         shortInstrumentName = #"RP"
     }{
-      \tempo 4 = 180
       \set Score.markFormatter = #format-mark-box-alphabet
 
       \set Staff.midiInstrument = #"acoustic grand"
