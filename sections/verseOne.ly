@@ -46,48 +46,54 @@ soloLyrics = \lyricmode {
 
 comp = \relative c {
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
   r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 compLyrics = \lyricmode {}
 
 rat = \relative c'' {
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
   r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  g'1~ | g1 | fis1~ | fis1 |
+  fis1 | fis1 |
+  g1~ | g1 | fis1~ | fis1 |
+  fis1 | fis1 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  d1~ | d1 | d1~ | d1 |
+  d1 | d1 |
+  d1~ | d1 | d1~ | d1 |
+  d1 | d1 |
 }
 
 leadLyrics = \lyricmode {}
 
 bari = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  g1~ | g1 | g1~ | g1 |
+  d1 | a'1 |
+  g1~ | g1 | g1~ | g1 |
+  d1 | a'1 |
 }
 
 bariLyrics = \lyricmode {}
 
-bass = \relative c, {
+bass = \relative c {
   r1 | r1 | r1 | r1 |
+  r1 | r1 |
   r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  r1 | r1 |
 }
 
 bassLyrics = \lyricmode {}
