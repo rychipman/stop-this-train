@@ -97,7 +97,10 @@ tenor = \relative c' {
   d1 | cis1 | d1 | e1 |
   d1 | cis1 | d1 | e1 |
   d1 | e1 | g1 | a1 |
-  r1 | r1 | r1 | r1 |
+
+  g2 fis |
+  e4~  e8 d~  d8 e8~  e4|
+  e1 | d1 |
 }
 
 tenorLyrics = \lyricmode {}
@@ -106,7 +109,7 @@ lead = \relative c' {
   b1 | a1 | g1 | a1 |
   b1 | a1 | g1 | a1 |
   b1 | cis1 | d1 | e1 |
-  r1 | r1 | r1 | r1 |
+  d1 | c1 | b1~ | b1 |
 }
 
 leadLyrics = \lyricmode {}
@@ -115,7 +118,7 @@ bari = \relative c' {
   g1 | e1 | d1 | e1 |
   g1 | e1 | d1 | e1 |
   g1 | a1 | b1 | a1 |
-  r1 | r1 | r1 | r1 |
+  a1 | a1 | g1~ | g1 |
 }
 
 bariLyrics = \lyricmode {}
