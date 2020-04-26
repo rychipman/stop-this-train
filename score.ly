@@ -29,9 +29,9 @@ gBass = { \key d \major }
 gBassLyrics = {}
 
 \include "sections/verseOne.ly"
-\include "sections/chorusOneTwo.ly"
+\include "sections/chorusOne.ly"
 \include "sections/verseTwo.ly"
-\include "sections/chorusOneTwo.ly"
+\include "sections/chorusTwo.ly"
 \include "sections/verseThree.ly"
 \include "sections/chorusThree.ly"
 \include "sections/bridge.ly"
