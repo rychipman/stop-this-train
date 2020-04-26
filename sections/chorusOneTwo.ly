@@ -3,6 +3,8 @@
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:150
 
 solo = \relative c {
+  \tempo 4 = 180
+
   fis2  r8 e~  e8 e~ |
   % stop this train
   e4  r4  r4  r8 d |
