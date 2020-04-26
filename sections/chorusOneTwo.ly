@@ -145,10 +145,26 @@ lead = \relative c' {
 leadLyrics = \lyricmode {}
 
 bari = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  e1 |
+  e1 |
+  e1 |
+  e1 |
+
+  cis1 |
+  cis1 |
+  cis1 |
+  cis1 |
+
   r1 | r1 |
 }
 
