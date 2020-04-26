@@ -127,20 +127,20 @@ tenor = \relative c' {
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  b1 |
-  b1 |
-  bes1 |
-  bes1 |
+  r4  b4~  b2~ |
+  b4  b8 b~  b2 |
+  r4  bes4~  bes2 |
+  bes4  bes~  bes  bes |
 
-  a1 |
-  a1 |
-  a1 |
-  a1 |
+  r4  a4~  a2~ |
+  a4  a8 a~  a2 |
+  r4  a4~  a2 |
+  a4  a~  a  a |
 
-  gis1 |
-  gis1 |
-  gis1 |
-  gis1 |
+  r4  gis4~  gis2~ |
+  gis4  gis8 gis~  gis2 |
+  r4  gis4~  gis2 |
+  gis4  gis~  gis  gis |
 
   g1 |
   g1 |
