@@ -181,22 +181,26 @@ bariLyrics = \lyricmode {}
 
 bass = \relative c {
   g2  g |
+  g2  g4. d8 |
   g2  g |
-  g2  g |
-  g2  g |
+  g4. d8  g a~  a4 |
 
   fis2  fis |
+  fis2  fis4. d8 |
   fis2  fis |
-  fis2  fis |
-  fis2  fis |
+  fis4. d8  fis g~  g4 |
 
   e2  e |
+  e2  e4. fis8 |
   e2  e |
-  e2  e |
-  e2  e |
+  e4  d  e  fis |
 
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
+  g1 |
+  g2.  d4 |
+  g1 |
+  g2  g |
+
+  d1~ | d1 |
 }
 
 bassLyrics = \lyricmode {}
