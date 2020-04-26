@@ -1,6 +1,6 @@
 % score:///home/ryan/git/personal/stop-this-train/score.ly
-% play:///home/ryan/git/personal/stop-this-train/media/russell.m4a:97.75
-% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:150
+% play:///home/ryan/git/personal/stop-this-train/media/russell.m4a:68.75
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:96
 
 solo = \relative c {
   \tempo 4 = 180
