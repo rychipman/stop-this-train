@@ -4,6 +4,8 @@
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:214
 
 solo = \relative c' {
+  \tempo 4 = 180
+
   b2~  b8 a  b8 cis~ |
   % once in a while
   cis2  r8 b  cis4 |
@@ -94,7 +96,7 @@ ratLyrics = \lyricmode {}
 tenor = \relative c' {
   d1 | cis1 | d1 | e1 |
   d1 | cis1 | d1 | e1 |
-  r1 | r1 | r1 | r1 |
+  d1 | e1 | g1 | a1 |
   r1 | r1 | r1 | r1 |
 }
 
@@ -103,7 +105,7 @@ tenorLyrics = \lyricmode {}
 lead = \relative c' {
   b1 | a1 | g1 | a1 |
   b1 | a1 | g1 | a1 |
-  d1 | b1 | e1 | b1 |
+  b1 | cis1 | d1 | e1 |
   r1 | r1 | r1 | r1 |
 }
 
@@ -112,7 +114,7 @@ leadLyrics = \lyricmode {}
 bari = \relative c' {
   g1 | e1 | d1 | e1 |
   g1 | e1 | d1 | e1 |
-  r1 | r1 | r1 | r1 |
+  g1 | a1 | b1 | a1 |
   r1 | r1 | r1 | r1 |
 }
 
