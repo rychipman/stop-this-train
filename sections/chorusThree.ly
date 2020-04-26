@@ -5,6 +5,8 @@
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:171
 
 solo = \relative c' {
+  \tempo 4 = 180
+
   r4  b8 b  b4  b8 d~ |
   % had a talk with my
   d8 d~  d8 e~  e4 r4 |
@@ -132,47 +134,100 @@ rat = \relative c'' {
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
+  fis1 |
+  fis1 |
+  fis1 |
+  d2  fis |
+
+  fis1 |
+  e1 |
+  fis4~  fis8 g~  g8 fis~  fis4 |
+  e2  fis2 |
+
+  fis1 |
+  e1 |
+  fis1 |
+  e1 |
+
+  d1 |
+  cis1 |
+  cis1 |
+  b1 |
+
+  a1~ | a1 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
+  b1 |
+  b1 |
+  bes1 |
+  bes1 |
+
+  a1 |
+  a1 |
+  a1 |
+  a1 |
+
+  gis1 |
+  gis1 |
+  gis1 |
+  gis1 |
+
+  g1 |
+  g1 |
+  g1 |
+  g1 |
+
+  fis1~ | fis1 |
 }
 
 leadLyrics = \lyricmode {}
 
+% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
 bari = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  e1 |
+  e1 |
+  e1 |
+  e1 |
+
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+
   r1 | r1 |
 }
 
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
+  g2  g |
+  g2  g |
+  g2  g |
+  g2  g |
+
+  fis2  fis |
+  fis2  fis |
+  fis2  fis |
+  fis2  fis |
+
+  e2  e |
+  e2  e |
+  e2  e |
+  e2  e |
+
   r1 | r1 | r1 | r1 |
   r1 | r1 |
 }
