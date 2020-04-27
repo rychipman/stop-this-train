@@ -173,22 +173,22 @@ lead = \relative c' {
   d2 d | d2. d4 |
 
   d1 |
-  d1 |
-  d1 |
-  d1 |
-
-  d1 |
-  d1 |
+  d4 d2. |
   d1 |
   d1 |
 
+  d1 |
+  d4 d2. |
+  d1 |
+  d1 |
+
   b1 |
-  b1 |
+  b4 b2. |
   b1 |
   b1 |
 
   d1 |
-  cis1 |
+  d4 cis2. |
   cis1 |
   b1 |
 
@@ -210,22 +210,22 @@ bari = \relative c' {
   b1 |
   b1 |
   bes1 |
-  bes1 |
+  bes4 bes2. |
 
   a1 |
   a1 |
   a1 |
-  a1 |
+  a4 a2. |
 
   gis1 |
   gis1 |
   gis1 |
-  gis1 |
+  gis4 gis2. |
 
   g1 |
   g1 |
   g1 |
-  g1 |
+  g2 g2 |
 
   fis1 | g2  a2 |
 }
