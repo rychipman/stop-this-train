@@ -121,7 +121,7 @@ tenor = \relative c' {
   g2  fis2 |
   e2  d2 |
 
-  d1~ | d1 |
+  d1 | d2  d2 |
 }
 
 tenorLyrics = \lyricmode {}
@@ -147,7 +147,7 @@ lead = \relative c' {
   cis1 |
   b1 |
 
-  a1~ | a1 |
+  a1 | a2  a2 |
 }
 
 leadLyrics = \lyricmode {}
@@ -174,7 +174,7 @@ bari = \relative c' {
   g1 |
   g1 |
 
-  fis1~ | fis1 |
+  fis1 | fis2  fis2 |
 }
 
 bariLyrics = \lyricmode {}
