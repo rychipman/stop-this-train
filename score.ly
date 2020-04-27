@@ -40,7 +40,7 @@ gBassLyrics = {}
       \set Score.markFormatter = #format-mark-box-alphabet
 
       \set Staff.midiInstrument = #"acoustic grand"
-      \set Staff.midiMaximumVolume = 0.6
+      \set Staff.midiMaximumVolume = 0.5
       \clef "treble_8"
       \new Voice = "Russell" { \gSolo }
     }
@@ -80,7 +80,7 @@ gBassLyrics = {}
         shortInstrumentName = #"B"
     }{
       \set Staff.midiInstrument = #"acoustic bass"
-      \set Staff.midiMaximumVolume = 1.5
+      \set Staff.midiMaximumVolume = 1.1
       \clef "bass"
       \new Voice = "Bass" { \gBass }
     }
