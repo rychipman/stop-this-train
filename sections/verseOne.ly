@@ -64,27 +64,27 @@ ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
   g'1~ | g1 | fis1~ | fis1 |
-  fis1 | fis1 |
+  d2 e2 | fis2 a2 |
   g1~ | g1 | fis1~ | fis1 |
-  fis1 | fis1 |
+  d2 e2 | fis2 g2 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  d1~ | d1 | d1~ | d1 |
+  d1~ | d1~ | d1~ | d1 |
   d1 | d1 |
-  d1~ | d1 | d1~ | d1 |
+  d1~ | d1~ | d1~ | d1 |
   d1 | d1 |
 }
 
 leadLyrics = \lyricmode {}
 
 bari = \relative c' {
-  g1~ | g1 | g1~ | g1 |
-  d1 | a'1 |
-  g1~ | g1 | g1~ | g1 |
-  d1 | a'1 |
+  g1~ | g1~ | g1~ | g1 |
+  fis1 | fis1 |
+  g1~ | g1~ | g1~ | g1 |
+  fis1 | fis1 |
 }
 
 bariLyrics = \lyricmode {}
