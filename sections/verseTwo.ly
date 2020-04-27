@@ -41,22 +41,6 @@ soloLyrics = \lyricmode {
   out on my own
 }
 
-comp = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-}
-
-compLyrics = \lyricmode {}
-
-rat = \relative c'' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-}
-
-ratLyrics = \lyricmode {}
-
 tenor = \relative c' {
   fis8 d~  d4~  d2~ |
   d2  d2 |
@@ -126,10 +110,6 @@ bassLyrics = \lyricmode {}
 
 gSolo = { \gSolo \solo }
 gSoloLyrics = { \gSoloLyrics \soloLyrics }
-gComp = { \gComp \comp }
-gCompLyrics = { \gCompLyrics \compLyrics }
-gRat = { \gRat \rat }
-gRatLyrics = { \gRatLyrics \ratLyrics }
 gTenor = { \gTenor \tenor }
 gTenorLyrics = { \gTenorLyrics \tenorLyrics }
 gLead = { \gLead \lead }

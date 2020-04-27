@@ -44,24 +44,6 @@ soloLyrics = \lyricmode {
   sleep on this to -- night
 }
 
-comp = \relative c {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
-}
-
-compLyrics = \lyricmode {}
-
-rat = \relative c'' {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
-}
-
-ratLyrics = \lyricmode {}
-
 tenor = \relative c' {
   g'1^\p~ | g1 | fis1~ | fis1 |
   a2 d,2 | e2 fis2 |
@@ -118,10 +100,6 @@ bassLyrics = \lyricmode {}
 
 gSolo = { \gSolo \solo }
 gSoloLyrics = { \gSoloLyrics \soloLyrics }
-gComp = { \gComp \comp }
-gCompLyrics = { \gCompLyrics \compLyrics }
-gRat = { \gRat \rat }
-gRatLyrics = { \gRatLyrics \ratLyrics }
 gTenor = { \gTenor \tenor }
 gTenorLyrics = { \gTenorLyrics \tenorLyrics }
 gLead = { \gLead \lead }

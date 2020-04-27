@@ -15,10 +15,6 @@
 
 gSolo = { \key d \major \time 2/2 }
 gSoloLyrics = {}
-gComp = { \key d \major \time 2/2 }
-gCompLyrics = {}
-gRat = { \key d \major \time 2/2 }
-gRatLyrics = {}
 gTenor = { \key d \major \time 2/2 }
 gTenorLyrics = {}
 gLead = { \key d \major \time 2/2 }
@@ -49,26 +45,6 @@ gBassLyrics = {}
       \new Voice = "Russell" { \gSolo }
     }
     \new Lyrics \lyricsto "Russell" { \gSoloLyrics }
-    %\new Staff \with {
-    %    instrumentName = #"Comp"
-    %    shortInstrumentName = #"C"
-    %}{
-    %  \set Staff.midiInstrument = #"acoustic grand"
-    %  \set Staff.midiMaximumVolume = 0.4
-    %  \clef "treble_8"
-    %  \new Voice = "Comp" { \gComp }
-    %}
-    %\new Lyrics \lyricsto "Comp" { \gCompLyrics }
-    %\new Staff \with {
-    %    instrumentName = #"RAT"
-    %    shortInstrumentName = #"R"
-    %}{
-    %  \set Staff.midiInstrument = #"acoustic grand"
-    %  \set Staff.midiMaximumVolume = 0.6
-    %  \clef "treble_8"
-    %  \new Voice = "RAT" { \gRat }
-    %}
-    %\new Lyrics \lyricsto "RAT" { \gRatLyrics }
     \new Staff \with {
         instrumentName = #"Tenor"
         shortInstrumentName = #"T"

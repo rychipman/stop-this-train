@@ -71,26 +71,6 @@ soloLyrics = \lyricmode {
   sing -- ing
 }
 
-comp = {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-}
-
-% play:///home/ryan/git/personal/stop-this-train/media/original.m4a:214
-
-compLyrics = \lyricmode {}
-
-rat = {
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-  r1 | r1 | r1 | r1 |
-}
-
-ratLyrics = \lyricmode {}
-
 tenor = \relative c' {
   d1^\p | cis1 | d1 | e1^\mf |
   d1^\mp | cis1 | d1 | e1^\f |
@@ -155,10 +135,6 @@ bassLyrics = \lyricmode {
 
 gSolo = { \gSolo \solo }
 gSoloLyrics = { \gSoloLyrics \soloLyrics }
-gComp = { \gComp \comp }
-gCompLyrics = { \gCompLyrics \compLyrics }
-gRat = { \gRat \rat }
-gRatLyrics = { \gRatLyrics \ratLyrics }
 gTenor = { \gTenor \tenor }
 gTenorLyrics = { \gTenorLyrics \tenorLyrics }
 gLead = { \gLead \lead }
