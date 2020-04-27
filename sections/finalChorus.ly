@@ -85,7 +85,11 @@ tenor = \relative c' {
   r1 |
 }
 
-tenorLyrics = \lyricmode {}
+tenorLyrics = \lyricmode {
+  ooh ooh ooh
+  oh oh ohh
+  ooh ooh ooh oo oo ooh
+}
 
 lead = \relative c' {
   d1~ |
@@ -107,7 +111,12 @@ lead = \relative c' {
   r1 |
 }
 
-leadLyrics = \lyricmode {}
+leadLyrics = \lyricmode {
+  ooh
+  ohh
+  ooh
+  oo ooh
+}
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
 bari = \relative c' {
@@ -130,7 +139,12 @@ bari = \relative c' {
   r1 |
 }
 
-bariLyrics = \lyricmode {}
+bariLyrics = \lyricmode {
+  ooh ooh
+  ohh
+  ooh
+  ooh
+}
 
 bass = \relative c {
   g1~ | g1 | g1~ | g2 g |
