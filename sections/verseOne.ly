@@ -69,7 +69,12 @@ tenor = \relative c' {
   d2 e2 | fis2 a2 |
 }
 
-tenorLyrics = \lyricmode {}
+tenorLyrics = \lyricmode {
+  hoo ooh
+  whoa oh oh oh
+  oo ooh
+  whoa oh oh oh
+}
 
 lead = \relative c' {
   d1~ | d1~ | d1~ | d1 |
@@ -78,7 +83,12 @@ lead = \relative c' {
   d2 cis2 | d1 |
 }
 
-leadLyrics = \lyricmode {}
+leadLyrics = \lyricmode {
+  hoo
+  whoa
+  ooh
+  whoa oh oh
+}
 
 bari = \relative c' {
   g1~ | g1~ | g1~ | g1 |
@@ -87,7 +97,12 @@ bari = \relative c' {
   fis1 | fis2. a4 |
 }
 
-bariLyrics = \lyricmode {}
+bariLyrics = \lyricmode {
+  hoo
+  whoa oh oh
+  ooh
+  whoa doh doh
+}
 
 bass = \relative c {
   r1 | r1 | r1 | r1 |
