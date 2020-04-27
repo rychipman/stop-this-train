@@ -101,109 +101,91 @@ rat = \relative c'' {
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  r4  r8 e~  e8 e~  e8 e~ |
-  e1 |
   fis1 |
-  d2  fis |
-
-  r4  r8 e~  e8 fis~  fis8 e~ |
   e1 |
   fis4~  fis8 g~  g8 fis~  fis4 |
-  e2  fis2 |
+  e2  fis |
 
-  r4  r8 e~  e8 fis~  fis8 e~ |
-  e1 |
   fis1 |
   e1 |
+  fis4~  fis8 g~  g8 fis~  fis4 |
+  e2  fis |
+
+  fis1 |
+  e1 |
+  fis1 |
+  e2  fis2 |
+
+  g1 |
+  g1 |
+  g2  fis2 |
+  e2  d2 |
+
+  d1 | d2  d2 |
+}
+
+tenorLyrics = \lyricmode {}
+
+lead = \relative c' {
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  b1 |
+  b1 |
+  b1 |
+  b1 |
 
   d1 |
   cis1 |
   cis1 |
   b1 |
 
-  a1~ | a1 |
-}
-
-tenorLyrics = \lyricmode {}
-
-lead = \relative c' {
-  r4  b4~  b2~ |
-  b4  b8 b~  b2 |
-  r4  bes4~  bes2 |
-  bes4  bes~  bes  bes |
-
-  r4  a4~  a2~ |
-  a4  a8 a~  a2 |
-  r4  a4~  a2 |
-  a4  a~  a  a |
-
-  r4  gis4~  gis2~ |
-  gis4  gis8 gis~  gis2 |
-  r4  gis4~  gis2 |
-  gis4  gis~  gis  gis |
-
-  g1 |
-  g1 |
-  g1 |
-  g1 |
-
-  fis1~ | fis1 |
+  a1 | a2  a2 |
 }
 
 leadLyrics = \lyricmode {}
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
-bari = \relative c {
-  d1 |
-  d1 |
-  d1 |
-  d1 |
+bari = \relative c' {
+  b1 |
+  b1 |
+  bes1 |
+  bes1 |
 
-  d1 |
-  d1 |
-  d1 |
-  d1 |
+  a1 |
+  a1 |
+  a1 |
+  a1 |
 
-  e1 |
-  e1 |
-  e1 |
-  e1 |
+  gis1 |
+  gis1 |
+  gis1 |
+  gis1 |
 
-  r1 |
-  r1 |
-  r1 |
-  r1 |
+  g1 |
+  g1 |
+  g1 |
+  g1 |
 
-  r1 | r1 |
+  fis1 | fis2  fis2 |
 }
 
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  g2  g |
-  g2  g4~  g8 d |
-  g2  g |
-  g4~  g8 d  g a~  a4 |
-
-  fis2  fis |
-  fis2  fis4~  fis8 d |
-  fis2  fis |
-  fis4~  fis8 d  fis g~  g4 |
-
-  e2  e |
-  e2  e4~  e8 fis |
-  e2  e |
-  e4  d  e  fis |
-
-  g1 |
-  g2.  d4 |
-  g1 |
-  g2  g |
-
-  d1~ | d1 |
+  g1 | g1 | g1 | g2 g |
+  fis1 | fis1 | fis1 | fis2 fis |
+  e1 | e1 | e1 | e2 e |
+  a1 | a1 | a2 a | a2 a |
+  d,2 d | d4~  d8 d~  d4  d4 |
 }
-
-bassLyrics = \lyricmode {}
 
 
 % "Export" the music to new variables
