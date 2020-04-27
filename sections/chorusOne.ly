@@ -180,24 +180,11 @@ bari = \relative c' {
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  g2  g |
-  g2  g |
-  g2  g |
-  g2  g |
-
-  fis2  fis |
-  fis2  fis |
-  fis2  fis |
-  fis2  fis |
-
-  e2  e |
-  e2  e |
-  e2  e |
-  e2  e |
-
-  a1 | a1 | a1 | a1 |
-
-  d,1 | d1 |
+  g1 | g1 | g1 | g2 g |
+  fis1 | fis1 | fis1 | fis2 fis |
+  e1 | e1 | e1 | e2 e |
+  a1 | a1 | a2 a | a2 a |
+  d,2 d | d4~  d8 d~  d4  d4 |
 }
 
 bassLyrics = \lyricmode {}
