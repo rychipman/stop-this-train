@@ -249,6 +249,15 @@ bassLyrics = \lyricmode {
   ahh ahh
   dm dm 
   dm dm dm dm 
+
+  dm dm dm de -- dn
+  dm dm dm dm dm
+  dm dm dm de -- dn
+  dm dm dm dm dm
+  dm dm dm de -- dn
+  dm dm dm dm dm
+  dm dm dm dm dm dm dm dm
+  dm dm doh doh
 }
 
 
