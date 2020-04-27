@@ -135,139 +135,119 @@ tenor = \relative c' {
   fis1 |
   fis1 |
   fis1 |
-  d2  fis |
+  fis1 |
+
+  fis1 |
+  fis1 |
+  fis1 |
+  fis1 |
 
   fis1 |
   e1 |
   fis4~  fis8 g~  g8 fis~  fis4 |
-  e2  fis2 |
-
-  fis1 |
-  fis1 |
-  fis1 |
-  d2  fis |
+  e2  fis |
 
   fis1 |
   e1 |
   fis4~  fis8 g~  g8 fis~  fis4 |
+  e2  fis |
+
+  fis1 |
+  e1 |
+  fis1 |
   e2  fis2 |
 
-  fis1 |
-  e1 |
-  fis1 |
-  e1 |
+  g1 |
+  g1 |
+  g2  fis2 |
+  e2  d2 |
 
-  d1 |
-  cis1 |
-  cis1 |
-  b1 |
-
-  a1~ | a1 |
+  d1 | d2  d2 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
+  d1 |
+  d1 |
+  d1 |
+  d1 |
+
   b1 |
   b1 |
-  bes1 |
-  bes1 |
-
-  a1 |
-  a1 |
-  a1 |
-  a1 |
-
   b1 |
   b1 |
-  bes1 |
-  bes1 |
 
-  a1 |
-  a1 |
-  a1 |
-  a1 |
+  d1 |
+  cis1 |
+  cis1 |
+  b1 |
 
-  gis1 |
-  gis1 |
-  gis1 |
-  gis1 |
-
-  g1 |
-  g1 |
-  g1 |
-  g1 |
-
-  fis1~ | fis1 |
+  a1 | a2  a2 |
 }
 
 leadLyrics = \lyricmode {}
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
-bari = \relative c {
-  d1 |
-  d1 |
-  d1 |
-  d1 |
+bari = \relative c' {
+  b1 |
+  b1 |
+  bes1 |
+  bes1 |
 
-  d1 |
-  d1 |
-  d1 |
-  d1 |
+  a1 |
+  a1 |
+  a1 |
+  a1 |
 
-  d1 |
-  d1 |
-  d1 |
-  d1 |
+  b1 |
+  b1 |
+  bes1 |
+  bes1 |
 
-  d1 |
-  d1 |
-  d1 |
-  d1 |
+  a1 |
+  a1 |
+  a1 |
+  a1 |
 
-  e1 |
-  e1 |
-  e1 |
-  e1 |
+  gis1 |
+  gis1 |
+  gis1 |
+  gis1 |
 
-  r1 |
-  r1 |
-  r1 |
-  r1 |
+  g1 |
+  g1 |
+  g1 |
+  g1 |
 
-  r1 | r1 |
+  fis1 | fis2  fis2 |
 }
 
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  g2  g |
-  g2  g |
-  g2  g |
-  g2  g |
-
-  fis2  fis |
-  fis2  fis |
-  fis2  fis |
-  fis2  fis |
-
-  g2  g |
-  g2  g |
-  g2  g |
-  g2  g |
-
-  fis2  fis |
-  fis2  fis |
-  fis2  fis |
-  fis2  fis |
-
-  e2  e |
-  e2  e |
-  e2  e |
-  e2  e |
-
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
+  g1 | g1 | g1 | g2 g |
+  fis1 | fis1 | fis1 | fis2 fis |
+  g1 | g1 | g1 | g2 g |
+  fis1 | fis1 | fis1 | fis2 fis |
+  e1 | e1 | e1 | e2 e |
+  a1 | a1 | a2 a | a2 a |
+  d,2 d | d4~  d8 d~  d4  d4 |
 }
 
 bassLyrics = \lyricmode {}
