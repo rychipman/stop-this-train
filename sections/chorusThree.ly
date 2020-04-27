@@ -132,10 +132,10 @@ rat = \relative c'' {
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  fis1~ | fis1 | fis1~ | fis1 |
+  fis1^\f~ | fis1 | fis1~ | fis1 |
 
   fis1~ | fis1 |
-  fis4~  fis8 g~  g4  fis8 e~ |
+  fis4^\mf~  fis8 g~  g4  fis8 e~ |
   e2 fis |
 
   fis1 |
