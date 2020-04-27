@@ -108,13 +108,13 @@ tenor = \relative c' {
 
   fis1 |
   e1 |
-  fis4~  fis8 g~  g8 fis~  fis4 |
-  e2  fis |
+  fis4~  fis8 g~  g8 a~  a4 |
+  a2  a2 |
 
-  fis1 |
-  e1 |
-  fis1 |
-  e1 |
+  gis1 |
+  gis1 |
+  gis1 |
+  gis1 |
 
   d1 |
   cis1 |
@@ -134,13 +134,13 @@ lead = \relative c' {
 
   a1 |
   a1 |
-  a1 |
-  a1 |
+  a2  d2 |
+  d1 |
 
-  gis1 |
-  gis1 |
-  gis1 |
-  gis1 |
+  b1 |
+  b1 |
+  b1 |
+  b1 |
 
   g1 |
   g1 |
