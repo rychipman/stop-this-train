@@ -4,8 +4,6 @@
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:214
 
 solo = \relative c' {
-  \tempo 4 = 180
-
   b2~  b8 a  b8 cis~ |
   % once in a while
   cis2  r8 b  cis4 |
