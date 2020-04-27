@@ -195,8 +195,9 @@ bass = \relative c {
   e2  e |
   e2  e |
 
-  r1 | r1 | r1 | r1 |
-  r1 | r1 |
+  a1 | a1 | a1 | a1 |
+
+  d,1 | d1 |
 }
 
 bassLyrics = \lyricmode {}
