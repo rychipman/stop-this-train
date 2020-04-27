@@ -153,14 +153,19 @@ bari = \relative c' {
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  g1~ | g1~ | g1~ | g2 g |
-  fis1~ | fis1~ | fis1~ | fis2 fis |
-  e1~ | e1~ | e1~ | e2 e |
+  g1~ | g1 | g1~ | g2 g |
+  fis1~ | fis1 | fis1~ | fis2 fis |
+  e1~ | e1 | e1~ | e2 e |
   a1~ | a2 r2 | r1 | r1 |
   r1 |
 }
 
-bassLyrics = \lyricmode {}
+bassLyrics = \lyricmode {
+ dm dm dm
+ dm dm dm
+ dm dm dm
+ dm dm
+}
 
 
 % "Export" the music to new variables
