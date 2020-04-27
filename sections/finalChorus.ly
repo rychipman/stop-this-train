@@ -3,7 +3,7 @@
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:235.5
 
 solo = \relative c {
-  \tempo 4 = 180
+  \tempo 4 = 170
   
   fis2  r8 e~  e8 e~ |
   % stop this train
@@ -38,8 +38,9 @@ solo = \relative c {
   % won't
   e2~  e8 d~  d4 |
   % some one
-  d4~  d8 fis,~  fis4  a4 |
+  d4~  d8 fis,~  fis4  a4~ |
   % stop this train
+  a2 r2 |
 
   \bar "|."
 }
@@ -71,6 +72,7 @@ comp = \relative c' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 |
 }
 
 compLyrics = \lyricmode {}
@@ -80,6 +82,7 @@ rat = \relative c'' {
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
   r1 | r1 | r1 | r1 |
+  r1 |
 }
 
 ratLyrics = \lyricmode {}
@@ -87,81 +90,76 @@ ratLyrics = \lyricmode {}
 tenor = \relative c' {
   fis1 |
   e1 |
-  fis4~  fis8 g~  g8 fis~  fis4 |
-  e2  fis |
+  fis1~ |
+  fis1 |
 
   fis1 |
   e1 |
-  fis4~  fis8 g~  g8 fis~  fis4 |
-  e2  fis |
+  fis1~ |
+  fis1 |
 
   fis1 |
   e1 |
   fis1 |
   e2  fis2 |
 
-  g1 |
-  g1 |
-  g2  fis2 |
-  e2  d2 |
+  g1~ | g2 r2 | r1 | r1 |
+  r1 |
 }
 
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
-  d1 |
-  d1 |
-  d1 |
-  d1 |
-
-  d1 |
-  d1 |
-  d1 |
+  d1~ |
+  d1~ |
+  d1~ |
   d1 |
 
-  b1 |
-  b1 |
-  b1 |
+  d1~ |
+  d1~ |
+  d1~ |
+  d1 |
+
+  b1~ |
+  b1~ |
+  b1~ |
   b1 |
 
-  d1 |
-  cis1 |
-  cis1 |
-  b1 |
+  d1 | cis2 r2 | r1 | r1 |
+  r1 |
 }
 
 leadLyrics = \lyricmode {}
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
 bari = \relative c' {
+  b1~ |
   b1 |
-  b1 |
+  bes1~ |
   bes1 |
-  bes1 |
 
-  a1 |
-  a1 |
-  a1 |
+  a1~ |
+  a1~ |
+  a1~ |
   a1 |
 
-  gis1 |
-  gis1 |
-  gis1 |
+  gis1~ |
+  gis1~ |
+  gis1~ |
   gis1 |
 
-  g1 |
-  g1 |
-  g1 |
-  g1 |
+  g1~ | g2 r2 | r1 | r1 |
+  r1 |
 }
 
 bariLyrics = \lyricmode {}
 
 bass = \relative c {
-  g1 | g1 | g1 | g2 g |
-  fis1 | fis1 | fis1 | fis2 fis |
-  e1 | e1 | e1 | e2 e |
-  a1 | a1 | a2 a | a2 a |
+  g1~ | g1~ | g1~ | g2 g |
+  fis1~ | fis1~ | fis1~ | fis2 fis |
+  e1~ | e1~ | e1~ | e2 e |
+  a1~ | a2 r2 | r1 | r1 |
+  r1 |
 }
 
 bassLyrics = \lyricmode {}
