@@ -124,7 +124,17 @@ tenor = \relative c' {
   d1 | d2  d2 |
 }
 
-tenorLyrics = \lyricmode {}
+tenorLyrics = \lyricmode {
+  oh ohh
+  wan -- na get off and
+  oh ohh
+  can't take the
+  oh ohh
+  oh ohh
+  oh oh oh ahh
+  some -- one stop this
+  ahh bah bah
+}
 
 lead = \relative c' {
   d1~ |
@@ -150,7 +160,17 @@ lead = \relative c' {
   a1 | a2  a2 |
 }
 
-leadLyrics = \lyricmode {}
+leadLyrics = \lyricmode {
+  ohh
+  whoa
+  ohh
+  ohh
+  ohh
+  ohh
+  ah ahh
+  oh ohh
+  ahh bah bah
+}
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
 bari = \relative c' {
@@ -177,7 +197,17 @@ bari = \relative c' {
   fis1 | fis2  fis2 |
 }
 
-bariLyrics = \lyricmode {}
+bariLyrics = \lyricmode {
+  ohh
+  whoa
+  ohh
+  ohh
+  ohh
+  ohh
+  ahh
+  ohh
+  ahh bah bah
+}
 
 bass = \relative c {
   g1 | g1 | g1 | g2 g |
@@ -187,7 +217,13 @@ bass = \relative c {
   d,2 d | d4~  d8 d~  d4  d4 |
 }
 
-bassLyrics = \lyricmode {}
+bassLyrics = \lyricmode {
+  dm dm dm dm dm
+  dm dm dm dm dm
+  dm dm dm dm dm
+  dm dm dm dm doh doh
+  dm dm den den deh
+}
 
 
 % "Export" the music to new variables
