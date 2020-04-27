@@ -101,7 +101,12 @@ tenor = \relative c' {
   e1 | d1^\p |
 }
 
-tenorLyrics = \lyricmode {}
+tenorLyrics = \lyricmode {
+  oo oo ohh ohh
+  oh oh ohh ohh
+  oh ohh ahh ahh
+  oh ohh way in the oo ooh
+}
 
 lead = \relative c' {
   b1 | a1 | g1 | a1 |
@@ -110,7 +115,12 @@ lead = \relative c' {
   d1 | c1 | b1~ | b1 |
 }
 
-leadLyrics = \lyricmode {}
+leadLyrics = \lyricmode {
+  oo oo ohh ohh
+  oh oh ohh ohh
+  oh ohh ahh ahh
+  oh ohh ooh
+}
 
 bari = \relative c' {
   g1 | e1 | d1 | e1 |
@@ -119,7 +129,12 @@ bari = \relative c' {
   a1 | a1 | g1~ | g1 |
 }
 
-bariLyrics = \lyricmode {}
+bariLyrics = \lyricmode {
+  oo oo ohh ohh
+  oh oh ohh ohh
+  oh ohh ahh ahh
+  oh ohh ooh
+}
 
 bass = \relative c {
   g1 | a1 | b1 | cis1 |
@@ -128,7 +143,12 @@ bass = \relative c {
   d1 | a1 | e1 | e1 |
 }
 
-bassLyrics = \lyricmode {}
+bassLyrics = \lyricmode {
+  oo oo ohh ohh
+  oh oh ohh ohh
+  oh ohh ahh ahh
+  oh ohh ooh
+}
 
 
 % "Export" the music to new variables
