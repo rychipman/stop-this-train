@@ -92,13 +92,13 @@ rat = {
 ratLyrics = \lyricmode {}
 
 tenor = \relative c' {
-  d1 | cis1 | d1 | e1 |
-  d1 | cis1 | d1 | e1 |
-  d1 | e1 | g1 | a1 |
+  d1^\p | cis1 | d1 | e1^\mf |
+  d1^\mp | cis1 | d1 | e1^\f |
+  d1^\mf | e1 | g1 | a1^\ff |
 
-  g2 fis |
+  g2^\mf fis |
   e4~  e8 d~  d8 e8~  e4|
-  e1 | d1 |
+  e1 | d1^\p |
 }
 
 tenorLyrics = \lyricmode {}
