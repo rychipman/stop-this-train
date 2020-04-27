@@ -116,7 +116,7 @@ tenor = \relative c' {
   fis1 |
   e2  fis2 |
 
-  g1 |
+  g1~ |
   g1 |
   g2  fis2 |
   e2  d2 |
@@ -127,19 +127,19 @@ tenor = \relative c' {
 tenorLyrics = \lyricmode {}
 
 lead = \relative c' {
+  d1~ |
   d1 |
-  d1 |
-  d1 |
-  d1 |
-
-  d1 |
-  d1 |
-  d1 |
+  d1~ |
   d1 |
 
+  d1~ |
+  d1 |
+  d1~ |
+  d1 |
+
+  b1~ |
   b1 |
-  b1 |
-  b1 |
+  b1~ |
   b1 |
 
   d1 |
@@ -154,24 +154,24 @@ leadLyrics = \lyricmode {}
 
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:110
 bari = \relative c' {
+  b1~ |
   b1 |
-  b1 |
+  bes1~ |
   bes1 |
-  bes1 |
 
+  a1~ |
   a1 |
-  a1 |
-  a1 |
+  a1~ |
   a1 |
 
+  gis1~ |
   gis1 |
-  gis1 |
-  gis1 |
+  gis1~ |
   gis1 |
 
+  g1~ |
   g1 |
-  g1 |
-  g1 |
+  g1~ |
   g1 |
 
   fis1 | fis2  fis2 |
