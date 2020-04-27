@@ -70,7 +70,7 @@ gBassLyrics = {}
     %  \clef "treble_8"
     %  \new Voice = "RAT" { \gRat }
     %}
-    \new Lyrics \lyricsto "RAT" { \gRatLyrics }
+    %\new Lyrics \lyricsto "RAT" { \gRatLyrics }
     \new Staff \with {
         instrumentName = #"Tenor"
         shortInstrumentName = #"T"
