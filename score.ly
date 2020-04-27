@@ -13,19 +13,19 @@
   copyright = "© 2020 MIT Logarhythms"
 }
 
-gSolo = { \key d \major }
+gSolo = { \key d \major \time 2/2 }
 gSoloLyrics = {}
-gComp = { \key d \major }
+gComp = { \key d \major \time 2/2 }
 gCompLyrics = {}
-gRat = { \key d \major }
+gRat = { \key d \major \time 2/2 }
 gRatLyrics = {}
-gTenor = { \key d \major }
+gTenor = { \key d \major \time 2/2 }
 gTenorLyrics = {}
-gLead = { \key d \major }
+gLead = { \key d \major \time 2/2 }
 gLeadLyrics = {}
-gBari = { \key d \major }
+gBari = { \key d \major \time 2/2 }
 gBariLyrics = {}
-gBass = { \key d \major }
+gBass = { \key d \major \time 2/2 }
 gBassLyrics = {}
 
 \include "sections/verseOne.ly"

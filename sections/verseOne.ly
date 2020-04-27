@@ -3,7 +3,7 @@
 % play:///home/ryan/git/personal/stop-this-train/media/original.m4a:150
 
 solo = \relative c' {
-  \tempo 4 = 160
+  \tempo 2 = 80
 
   r4  b8 b~  b8 b~  b4 |
   % no I'm not
